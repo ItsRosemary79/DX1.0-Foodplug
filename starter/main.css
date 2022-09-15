@@ -230,10 +230,10 @@ margin: 0 0 0 10px;
 
 /* === Header counter section ends here */
 /* === About us section ends here */
-
-.about-us{
+/* / */
+/* .about-us{
   /* border: 3px solid tomato; */
-}
+/* } */
 .about-us-container{
   /* border: 3px solid black; */
   height: 100%;
@@ -247,6 +247,7 @@ margin: 0 0 0 10px;
 
 .about-us-cards-img{
 /* border: 3px solid blue; */
+/* min-width: 350px; */
 width: 48%;
 height: 350px;
 border-radius:25px ;
@@ -281,3 +282,106 @@ overflow: hidden;
 }
 
 /* ===About us  section ends here */
+
+/* ===wave button  section ends here */
+
+.wave-button-container{
+  background: var(--gray-gradient), url("./img/about3.jpg");
+  background-size: cover;
+  background-position: bottom right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px;
+
+
+}
+.wave-button-container h2{
+color: var(--main-color);
+}
+.wave-button-container p{
+margin: 20px 0;
+}
+.btn-waves{
+margin: 30px 0;
+height: 60px;
+width: 60px;
+border: 1px solid var(--white-color);
+background: var(--main-color);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+color: var(--white-color);
+font-size: 30px;
+
+animation: ripple 2s infinite;
+
+/* animation-name: ripple;
+animation-duration: 2s;
+animation-iteration-count: infinite; */
+
+
+}
+/* ===wave button  section ends here */
+/* ===explore food  section ends here */
+.explore-foods-section{
+  /* border: 3px solid tomato; */
+  /* height: 600px; */
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  border-bottom: 30px solid var(--main-color);
+}
+.explore-foods-section h2{
+  color: var(--main-color);
+}
+.explore-foods-section p{
+  margin: 20px 0;
+}
+
+.food-card-container{
+  /* border: 3px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* height: 400px; */
+}
+.food-card-item{
+  /* border: 3px solid red; */
+  width: 320px;
+  /* height: 300px; */
+}
+.food-img-container{
+ width: 100%;
+ height: 250px;
+ /* border: 2px solid black; */
+ border-top-right-radius: 30px;
+ border-top-left-radius: 30px;
+ overflow: hidden;
+
+}
+.food-img-container img {
+  object-fit: cover;
+}
+.food-txt-container{
+width: 100%;
+/* border: 3px solid tomato; */
+}
+.food-txt-container p{
+margin: 8px 0;
+}
+.food-txt-container h5{
+  font-size: 18px;
+  margin: 0 0 8px 0;
+  border-bottom: 0.5px solid var(--light-text-color);
+  padding-bottom: 10px;
+}
+
+.food-txt-container h5 span{
+  color: var(--text-color);
+  text-decoration: line-through;
+}
+/* ===explore food section ends here */

@@ -1,36 +1,40 @@
-@media screen and (max-width:851px)  {
-
-.nav-desktop{
+@media screen and (max-width: 1100px) {
+  .nav-desktop {
     display: none;
-}
-.nav-mobile{
+  }
+  .nav-mobile {
     display: flex;
-}
-/* Header section ends here */
+  }
+  /* Header section ends here */
 
-/* Header banner section starts  here */
-.banner-content-container{
+  /* Header banner section starts  here */
+  .banner-content-container {
     padding-top: 95px;
-}
-.banner-text-container{
-width: 100%;
-}
+  }
+  .banner-text-container {
+    width: 100%;
+  }
 
-/* Header banner section ends here */
+  /* Header banner section ends here */
 
-/* About us section starts here */
-.about-us-container{
+  /* About us section starts here */
+  .about-us-container {
     justify-content: center;
-}
-.about-us-cards-img{
+  }
+  .about-us-cards-img {
     min-width: 350px;
     height: 285px;
-}
+  }
 
-.about-us-cards-text{
+  .about-us-cards-text {
     width: 90%;
     margin: 20px 0;
-}
-/* About us section ends here */
-    
+  }
+  /* About us section ends here */
+
+  /* About us section ends here */
+  .food-card-item{
+    margin: 20px 0;
+  }
+  /* About us section ends here */
 }
