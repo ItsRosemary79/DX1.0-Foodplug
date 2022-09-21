@@ -36,5 +36,36 @@
   .food-card-item{
     margin: 20px 0;
   }
-  /* About us section ends here */
+  
+
+  
+   /* About us section ends here  */
+
+   /* faq section starts here  */
+   .faq-items{
+    min-width: 100%;
+    padding: 0 10px;
+   }
+
+
+   /*faq  section ends here  */
+   /*faq  section ends here  */
+   .parallax{
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+   }
+   /*faq  section ends here  */
+   /*footer section ends here  */
+   footer{
+    flex-direction: column;
+    text-align: center;
+   }
+   footer button{
+    margin: 20px 0;
+   }
+   .footer-icon-container{
+margin-top: 20px;
+   }
+   /*footer  section ends here  */
 }
